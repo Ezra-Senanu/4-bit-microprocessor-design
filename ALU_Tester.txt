@@ -1,0 +1,153 @@
+v2.0 raw
+1703# Store 3 for all number to ASCII conversions
+1004# 4 to reg0 for ALU Operation
+1105# 5 to reg1 for ALU Operation
+3070# display reg0
+1202
+1300
+3023# space
+1205
+1308
+3023# display X
+1204
+130f
+3023# display O
+1205
+1302
+3023# display R
+1202
+1300
+3023# space
+3071# display reg1
+1202
+1300
+3023# space
+1203
+130d
+3023# display =
+1202
+1300
+3023# space
+4301# 4 XOR 5
+3073# display result
+1200
+130a
+3023# line feed
+1007# 7 to reg0 for ALU Operation
+1105# 5 to reg1 for ALU Operation
+3070# display reg0
+1202
+1300
+3023# space
+1204
+1301
+3023# display A
+1204
+130e
+3023# display N
+1204
+1304
+3023# display D
+1202
+1300
+3023# space
+3071# display reg1
+1202
+1300
+3023# space
+1203
+130d
+3023# display =
+1202
+1300
+3023# space
+5301# reg0 AND reg1
+3073# display result
+1200
+130a
+3023# line feed
+1003# 3 to reg0 for ALU Operation
+1105# 5 to reg1 for ALU Operation
+3070# display reg0
+1202
+1300
+3023# space
+1204
+130f
+3023# display O
+1205
+1302
+3023# display R
+1202
+1300
+3023# space
+3071# display reg1
+1202
+1300
+3023# space
+1203
+130d
+3023# display =
+1202
+1300
+3023# space
+6401# reg0 OR reg1
+3074# display result
+1200
+130a
+3023# line feed
+1002# 2 to reg0 for ALU Operation
+1105# 5 to reg1 for ALU Operation
+3070# display reg0
+1202
+1300
+3023# space
+1202
+130b
+3023# display +
+1202
+1300
+3023# space
+3071# display reg1
+1202
+1300
+3023# space
+1203
+130d
+3023# display =
+1202
+1300
+3023# space
+7301# reg0 + reg1
+3073# display result
+1200
+130a
+3023# line feed
+1007# 7 to reg0 for ALU Operation
+1103# 3 to reg1 for ALU Operation
+3070# display reg0
+1202
+1300
+3023# space
+1202
+130d
+3023# display -
+1202
+1300
+3023# space
+3071# display reg1
+1202
+1300
+3023# space
+1203
+130d
+3023# display =
+1202
+1300
+3023# space
+f301# reg0 - reg1
+3073# display result
+1200
+130a
+3023# line feed
+
